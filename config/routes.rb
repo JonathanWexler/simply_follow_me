@@ -1,4 +1,9 @@
 SimplyFollowMe::Application.routes.draw do
+  get "user/index"
+  get "user/new"
+  get "user/show"
+  get "user/edit"
+  get "user/delete"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
